@@ -145,6 +145,11 @@ cleanup() {
 	find /home/$name/.config/gnupg -type d -exec chmod 700 {} \;
  	sudo -u $name mkdir -p /home/$name/.config/mpd/playlists/
  	sudo -u $name chmod -R +x /home/$name/.local/bin/* || error "Failed to remove unnecessary files and other cleaning."
+	# Remove ifupdown so that NetworkManager actually works.
+	! [ -z $(command -v ifupdown) ] && apt remove ifupdown && apt autoremove
+	[ -f "/etc/network/interfaces" ] && rm -r /etc/network/interfaces
+	# Allow pipewire to function without outside interference
+	[ -d "/etc/systemd/users" ] && rm -r /etc/systemd/users
 }
 
 depower() {
@@ -187,7 +192,7 @@ compilesl || error "Failed to compile all suckless software."
 # Remove the beeping sound of your computer.
 removebeep
 
-# Cleans the files and directories.
+# Make some finalizing improvements.
 cleanup
 
 # De-power the user from infinite greatness.
