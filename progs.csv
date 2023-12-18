@@ -1,0 +1,53 @@
+#TAG,NAME IN REPO (or git url),DESCRIPTION (a short description about the program)
+,nsxiv,The simple X image viewer
+,zathura,A document viewer
+,zathura-pdf-poppler,PDF support for zathura
+,mpv,A terminal media player
+,ffmpeg,A video converter
+,picom,Compositor for X11
+,xwallpaper,A wallpaper setting for X
+,lf,A terminal file manager written in Go
+,fff,The fucking fast file-manager written in bash
+,dunst,A lightweight notification-daemon
+,firefox-esr,A web browser created by Mozilla (Extended Support)
+,mpd,A music player daemon
+,mpc,Command-line client for mpd
+,ncmpcpp,An ncurses music player daemon client
+,newsboat,An RSS/Atom feed reader for terminals
+,transmission-cli,A torrent client for the terminal
+,stig,A curses interface for transmission-daemon
+,pipewire,A program to enable audio
+,pipewire-pulse,Compatibility with pulseaudio
+,wireplumber,Session manager implementation for pipewire
+,pulsemixer,CLI and curses mixer for pulseaudio/pipewire
+,bluez,Daemon for bluetooth
+,yt-dlp,Allows you to download Youtube videos/audio
+,xorg,The graphical user interface
+,xdg-utils,Tools to assist applications with various desktop integration tasks
+,gnome-keyring,Stores keys for applications
+,fonts-noto-color-emoji,Emoji support
+,maim,Utility to take screenshots
+,xcape,Modifies keys to act as other keys
+,xdotool,Command-line X11 automation tool
+,xclip,Basically the clipboard
+,unzip,Unzip zipped files
+,lynx,A browser for the terminal
+,bat,Concatenate files with syntax highlighting
+,slock,The simple X screen locker
+,fzf,A command-line fuzzy finder
+,bc,A terminal calculator
+,xz,XZ compression utilities
+,7zip,File archiver with a high compression ratio
+,ueberzug,Comman-line util which allows drawing images on terminals
+,ffmpegthumbnailer,Lightweight video thumbnailer
+,poppler,PDF rendering library (PDF previews)
+,libx11-dev,You just need this for suckless software on Debian
+,libxft-dev,You just need this for suckless software on Debian
+,libxinerama-dev,You just need this for suckless software on Debian
+,libx11-xcb-dev,You just need this for suckless software on Debian
+,libxcb-res0-dev,You just need this for suckless software on Debian
+G,https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme,Gruvbox GTK theme for the system
+G,https://github.com/x1nigo/dwm.git,The suckless dynamic window manager
+G,https://github.com/x1nigo/st.git,The simple terminal
+G,https://github.com/x1nigo/dmenu.git,The dynamic menu
+G,https://github.com/x1nigo/dwmblocks.git,Modular status bar for dwm written in C
