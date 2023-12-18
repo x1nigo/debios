@@ -10,6 +10,7 @@
 ,fff,The fucking fast file-manager written in bash
 ,dunst,A lightweight notification-daemon
 ,firefox-esr,A web browser created by Mozilla (Extended Support)
+,network-manager,If you want to connect to the internet
 ,mpd,A music player daemon
 ,mpc,Command-line client for mpd
 ,ncmpcpp,An ncurses music player daemon client
