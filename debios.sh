@@ -66,7 +66,7 @@ adduserandpass() {
 	useradd -m -s /bin/bash "$name" >/dev/null 2>&1
 	export repodir="/home/$name/.local/src"
 	mkdir -p "$repodir"
-	chown -R "$name":wheel "$(dirname "$repodir")"
+	chown -R "$name":"$name" "$(dirname "$repodir")"
 	echo -e "$pass1\n$pass1" | passwd "$name" >/dev/null 2>&1
 	unset pass1 pass2
 }
