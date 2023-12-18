@@ -7,7 +7,6 @@
 ,picom,Compositor for X11
 ,xwallpaper,A wallpaper setting for X
 ,lf,A terminal file manager written in Go
-,fff,The fucking fast file-manager written in bash
 ,dunst,A lightweight notification-daemon
 ,firefox-esr,A web browser created by Mozilla (Extended Support)
 ,network-manager,If you want to connect to the internet
@@ -16,7 +15,6 @@
 ,ncmpcpp,An ncurses music player daemon client
 ,newsboat,An RSS/Atom feed reader for terminals
 ,transmission-cli,A torrent client for the terminal
-,stig,A curses interface for transmission-daemon
 ,pipewire,A program to enable audio
 ,pipewire-pulse,Compatibility with pulseaudio
 ,wireplumber,Session manager implementation for pipewire
