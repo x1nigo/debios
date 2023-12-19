@@ -149,7 +149,7 @@ cleanup() {
 	! [ -z $(command -v ifupdown) ] && apt remove ifupdown && apt autoremove
 	[ -f "/etc/network/interfaces" ] && rm -r /etc/network/interfaces
 	# Allow pipewire to function without outside interference
-	[ -d "/etc/systemd/users" ] && rm -r /etc/systemd/users
+	[ -d "/etc/systemd/user" ] && rm -r /etc/systemd/user
 }
 
 depower() {

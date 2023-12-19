@@ -21,6 +21,7 @@
 ,wireplumber,Session manager implementation for pipewire
 ,pulsemixer,CLI and curses mixer for pulseaudio/pipewire
 ,bluez,Daemon for bluetooth
+,libspa-0.2-bluetooth,Bluetooth compatibility for Pipewire
 ,yt-dlp,Allows you to download Youtube videos/audio
 ,xorg,The graphical user interface
 ,xdg-utils,Tools to assist applications with various desktop integration tasks
