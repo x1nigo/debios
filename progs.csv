@@ -13,6 +13,7 @@
 ,mpd,A music player daemon
 ,mpc,Command-line client for mpd
 ,ncmpcpp,An ncurses music player daemon client
+,mutt-wizard,Luke's utility for configuring neomutt for email
 ,newsboat,An RSS/Atom feed reader for terminals
 ,transmission-cli,A torrent client for the terminal
 ,transmission-daemon,Daemon for transmission-cli
@@ -25,6 +26,9 @@
 ,yt-dlp,Allows you to download Youtube videos/audio
 ,xorg,The graphical user interface
 ,xdg-utils,Tools to assist applications with various desktop integration tasks
+,groff,Create documents with the GNU troff text-formatting system
+,hugo,Static site generator written in Go
+,lowdown,A simple markdown translator
 ,gnome-keyring,Stores keys for applications
 ,fonts-noto-color-emoji,Emoji support
 ,maim,Utility to take screenshots
