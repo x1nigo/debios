@@ -1,5 +1,5 @@
 #TAG,NAME IN REPO (or git url),DESCRIPTION (a short description about the program)
-,nsxiv,The simple X image viewer
+,sxiv,The simple X image viewer
 ,zathura,A document viewer
 ,zathura-pdf-poppler,PDF support for zathura
 ,mpv,A terminal media player
@@ -15,6 +15,7 @@
 ,ncmpcpp,An ncurses music player daemon client
 ,newsboat,An RSS/Atom feed reader for terminals
 ,transmission-cli,A torrent client for the terminal
+,transmission-daemon,Daemon for transmission-cli
 ,pipewire,A program to enable audio
 ,pipewire-pulse,Compatibility with pulseaudio
 ,wireplumber,Session manager implementation for pipewire
@@ -40,6 +41,7 @@
 ,ueberzug,Comman-line util which allows drawing images on terminals
 ,ffmpegthumbnailer,Lightweight video thumbnailer
 ,poppler,PDF rendering library (PDF previews)
+,gcc,A compiler for C
 ,libx11-dev,You just need this for suckless software on Debian
 ,libxft-dev,You just need this for suckless software on Debian
 ,libxinerama-dev,You just need this for suckless software on Debian
