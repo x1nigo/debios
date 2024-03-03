@@ -8,7 +8,7 @@
 ,xwallpaper,A wallpaper setting for X
 ,lf,A terminal file manager written in Go
 ,dunst,A lightweight notification-daemon
-,firefox-esr,A web browser created by Mozilla (Extended Support)
+,chromium,Web browser
 ,network-manager,If you want to connect to the internet
 ,mpd,A music player daemon
 ,mpc,Command-line client for mpd
